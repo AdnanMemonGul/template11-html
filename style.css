@@ -1,0 +1,78 @@
+:root {
+    --maincolor:orange;
+}
+body,html {
+    margin:0;
+    padding:0;
+    font-size: 16px;
+    font-family: tahoma;
+    background-image: url(./22.jpeg);
+    background-size: cover;
+    height: 100%;
+}
+.about, .skills,.experience {
+    padding:10px 60px;
+    background-color: blueviolet;
+    margin:10px 300px;
+    border-radius: 20px;
+}
+.about {
+    margin-top:0px;
+}
+.header {
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.header .logo {
+    margin:0 auto;
+    width:200px;
+    height: 200px;
+    background-color: var(--maincolor);
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,0.5);
+    overflow: hidden;
+    /* float: left; */
+
+}
+.header .logo img {
+    width: 85%;
+    /* overflow: hidden; */
+    border-radius: 50%;
+    /* background-color: aqua; */
+}
+.header hr {
+    border-color: var(--maincolor);
+    width: 100px;
+}
+.about,.experience {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.2);
+    /* color:#000; */
+}
+.experience {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(50,50,50,0.2);
+    /* color:#000; */
+}
+.skills {
+    background-color: var(--maincolor);
+    color:#fff;
+    box-shadow:  0px 1px 5px rgba(50,50,50,0.2);
+}
+.header > h1 {
+    color:orange
+}
+.header > h2 {
+    color:white;
+    /* float: left; */
+}
+.footer {
+    background-color: var(--maincolor);
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+    margin-bottom: 0px;
+
+}
